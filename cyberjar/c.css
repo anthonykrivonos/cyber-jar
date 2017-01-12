@@ -1,0 +1,173 @@
+body
+{
+   color:black;
+   background-color:white;
+   background: url(ced.png) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   font-family:Tahoma;
+}
+
+.nopadding
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+span > i
+{
+   cursor: hand;
+   cursor: pointer;
+}
+
+button
+{
+   background:white;
+   border:solid 1px black;
+   height:30px;
+   border-radius:0px;
+}
+
+input
+{
+   background:white;
+   border:solid 1px black;
+   margin:0px;
+   height:30px;
+   -webkit-border-radius:0px;
+   -webkit-appearance: none;
+}
+
+.unselectable
+{
+   -webkit-user-select: none;       
+   -moz-user-select: none;
+   -ms-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+   cursor: default;
+}
+
+@media (min-width: 0em)
+{
+   .popup
+   {
+      width: 300px;
+      height:130px;
+      background:white;
+      border: solid 1px black;
+      color:black;
+      font-size:14pt;
+      position:fixed;
+      margin: auto;
+      top: 0; left: 0; right: 0; bottom: 0;
+      text-align:center;
+      padding-top:15px;
+      display:none;
+   }
+   
+   .popup > span
+   {
+      font-size:20pt;
+   }
+   
+   .popup > span > i
+   {
+      cursor: hand;
+      cursor: pointer;
+      font-size:14pt;
+      display:inline;
+      margin-top:10px;
+   }
+}
+
+@media (min-width: 48em)
+{
+   .popup
+   {
+      width: 400px;
+      height:190px;
+      background:white;
+      border: solid 1px black;
+      color:black;
+      font-size:20pt;
+      position:fixed;
+      margin: auto;
+      top: 0; left: 0; right: 0; bottom: 0;
+      text-align:center;
+      padding-top:18px;
+      display:none;
+   }
+   
+   .popup > span
+   {
+      font-size:30pt;
+   }
+   
+   .popup > span > i
+   {
+      cursor: hand;
+      cursor: pointer;
+      font-size:20pt;
+      display:inline;
+      margin-top:10px;
+   }
+}
+
+@media (min-width: 70em)
+{
+   .popup
+   {
+      width: 500px;
+      height:220px;
+      background:white;
+      border: solid 1px black;
+      color:black;
+      font-size:25pt;
+      position:fixed;
+      margin: auto;
+      top: 0; left: 0; right: 0; bottom: 0;
+      text-align:center;
+      padding-top:13px;
+      display:none;
+   }
+   
+   .popup > span
+   {
+      font-size:40pt;
+   }
+   
+   .popup > span > i
+   {
+      cursor: hand;
+      cursor: pointer;
+      font-size:24pt;
+      display:inline;
+      margin-top:10px;
+   }
+}
+
+.dropdown
+{
+   background:black;
+   height:18px;
+   border: solid 1px black;
+   color: white;
+   text-align: center;
+   padding-top:-5px;
+   cursor: hand;
+   cursor: pointer;
+}
+
+.infobox
+{
+   background:white;
+   border:1px solid black;
+   height:80px;
+   width:410px;
+   padding-top:10px;
+   margin-left:auto;
+   margin-right:auto;
+}
